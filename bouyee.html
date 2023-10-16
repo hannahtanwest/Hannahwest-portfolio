@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hannah West - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="container-fluid nav-full ">
+        <div class="row justify-content-center align-items-center mt-3 mb-3">
+            <div class="col-10 nav-logo">
+               
+                <a href="home.html">Hannah West</a>
+                
+            </div>
+            <div class="col-1 menu">
+                <!-- The overlay -->
+                <div id="myNav" class="overlay">
+
+                    <!-- Button to close the overlay navigation -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+                    <!-- Overlay content -->
+                    <div class="overlay-content">
+                    <a href="home.html">HOME</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="mailto:hannahtan.west@gmail.com">CONTACT</a>
+                    </div>
+                
+                </div>
+  
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <i class="bi bi-list-nested" onclick="openNav()"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- header section -->
+
+    <div class="container">
+        <div class="row">
+            <div class="mob-pro-container">
+                <div class="col-xl-4 projects-fluid" id="d">
+                    <p class="projects-header-info">The creator of the brand and dear friend of mine asked me, when she created the brand, if I would help her with the visuals. I loved the vibe and concept of the brand, so we started working together.</p>
+                </div>
+                <div class="col-xl-8 projects-fluid z-one" id="a">
+                    <h1 class="pro-header-text">BOUYEE</h1>
+                </div>
+                <div class="col-xl-8 z-one " id="b">
+                    <h1 class="pro-header-text">STUDIOS</h1>
+                    <h5 class="pro-header-text-sub phts-1" >VISUALS</h5>
+                </div>
+                <div class="col-xl-4" id="c">
+                    <img src="img/bouyee-header.JPG" alt="" width="100%" class="projects-header-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- showcase -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bouyee-pro-img bpi-2">
+                <img src="img/BS_tote.JPG" alt="" width="29%">
+                <img src="img/bs2.JPG" alt="" width="29%">
+                <img src="img/bs3.JPG" alt="" width="29%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row p-0">
+            <div class="col p-0 bouyee-info">
+                <div class="bouyee-left">
+                    <img src="img/bouyee mock.png" alt="" width="100%">
+                </div>
+                <div class="bouyee-right">
+                    <h1 class="projects-sub-header">Where to find the visuals</h1>
+                    <p>Due to copyright reasons, you can find all the content on both Bouyee Studios & Westfilmm Instagrams. </p>
+                    <div class="bs-insta-link">
+                        <a href="https://www.instagram.com/bouyee.studio/" target="_blank" class="bs-insta"><img src="img/instagram.svg" alt=""> Bouyee.studio</a>
+                        <a href="https://www.instagram.com/westfilmm/" target="_blank" class="bs-insta"><img src="img/instagram.svg" alt="">Westfilmm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile back to projects btn -->
+    <div class="back_to_pro">
+        <a href="projects.html">Back to projects</a>
+    </div>
+    <!-- footer -->
+
+<div class="container-fluid">
+    <div class="row">
+        <footer>
+            <div class="top_footer">
+                GET IN TOUCH!
+            </div>
+            <div class="top_footer_st">
+                <h4>Mail:</h4>
+                <h4>Instagram:</h4>
+            </div>
+                <div class="socials">
+                    <div class="footer_section">
+                        <a href="mailto:hannahtan.west@gmail.com"><button class="footer_socials">hannahtan.west@gmail.com</button></a>                    </div>
+                        <div class="footer_section">
+                            <a href="https://www.instagram.com/westfilmm/" target="_blank"><button class="footer_socials">@westfilmm</button></a>
+                            <a href="https://www.instagram.com/hannah_tan_west/" target="_blank"><button class="footer_socials">@hannah_tan_west</button></a>
+                        </div>
+                </div>  
+                <div class="bottom_footer">
+                    Hannah West // 2023 © Edition
+                </div>   
+        </footer>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+        </script>
+  </body>
+</html>
